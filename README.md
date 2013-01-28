@@ -13,7 +13,7 @@ To install laravel-weather just run:
 
 And to activate laravel-weather add the following to your bundles.php file:
 
-    'weatheronline' => array('auto' => true),
+    'laravel-weather' => array('auto' => true),
 
 Configuration
 =============
