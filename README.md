@@ -8,10 +8,10 @@ Installation
 ============
 
 To install laravel-weather just run:
-  php artisan bundle:install weather
+    php artisan bundle:install weather
 
 And to activate laravel-weather add the following to your bundles.php file:
-  'weatheronline' => array('auto' => true),
+    'weatheronline' => array('auto' => true),
 
 Configuration
 =============
@@ -24,7 +24,7 @@ Usage
 Current and forecast weather
 ----------------------------
 To get a weather forecast and current conditions for a certain location call
-  Weather::free(latitude, longtitude, days, format)
+    Weather::free(latitude, longtitude, days, format)
 Replace latitude and longtitude with the GPS coordinates of the location you want the forecast for. GPS coordinates are entered in decimal format.
 Replace days with the number of days (integer) for the forecast. Valid range is between 2 and 5 days.
 Replace format with xml to get the result in XML format. Leave empty for JSON format (default).
@@ -32,7 +32,7 @@ Replace format with xml to get the result in XML format. Leave empty for JSON fo
 Current weather
 ---------------
 To get the current weather conditions for a certain location call
-  Weather::current(latitude, longtitude, format)
+    Weather::current(latitude, longtitude, format)
 Replace latitude and longtitude with the GPS coordinates of the location you want the forecast for. GPS coordinates are entered in decimal format.
 Replace format with xml to get the result in XML format. Leave empty for JSON format (default).
 
